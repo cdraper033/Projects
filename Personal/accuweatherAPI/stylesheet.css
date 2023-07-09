@@ -1,0 +1,35 @@
+body{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(39,39,181,1) 29%, rgba(0,212,255,1) 100%);
+}
+
+#input{
+    position: fixed; /* or absolute */
+    top: 50%;
+    left: 50%;
+}
+
+.temperature, .weatherType{
+    color: blue;
+    font-family: 'Oswald', sans-serif;
+    font-size: 200px;
+    font-weight: 700;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-shadow: 2px 2px 0px  #fff, -2px -2px 0px  #fff, 2px -2px 0px  #fff, -2px 2px 0px  #fff;
+}
+
+.location{
+    text-shadow: 2px 2px 0px  #fff, -2px -2px 0px  #fff, 2px -2px 0px  #fff, -2px 2px 0px  #fff;
+
+    color: blue;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+
